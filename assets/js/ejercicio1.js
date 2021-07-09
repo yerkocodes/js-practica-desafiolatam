@@ -1,4 +1,4 @@
-//Ejercicio 1 '' -------------------------------------------
+//Ejercicio 1 'Validacion de formulario' 
 
 let form = document.getElementById('formulario');
 
