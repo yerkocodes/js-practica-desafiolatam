@@ -38,7 +38,7 @@ const validar = (nombre,asunto,mensaje) => {
 //    pasamosLaValidacion = false;
 //  };
 
-  let validacionNombre =  /[a-zA-Z]/; // Expresion regular
+  let validacionNombre = /^[a-zA-zÁ-ÿ]+\s?[a-zA-zÁ-ÿ]+?\s?[a-zA-zÁ-ÿ]+?\s?[a-zA-zÁ-ÿ]+?\s?[a-zA-zÁ-ÿ]+$/; ///[a-zA-Z]/; // Expresion regular
   
   if (validacionNombre.test(nombre) == false) {
     document.querySelector('.errorNombre').innerHTML = "El nombre es requerido";
